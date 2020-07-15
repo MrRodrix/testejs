@@ -1,0 +1,27 @@
+
+	li:nth-child(odd){
+		background-color: gray;
+	}
+	li:hover{
+		background-color: red;
+		border-top: 3px;
+		border-bottom: 3px;
+		font-size: 20px;
+		cursor: pointer;
+		font-family: monospace;
+		font-style: italic;
+	}
+	li:onclick{
+		alert("AIAIAIAI");
+	}
+	#centroNigaa{
+		text-align: center;
+	}
+
+	li li:hover{
+		background-color: blue;
+		border-top: 3px;
+		border-bottom: 3px;
+		font-size: 20px;
+		cursor: pointer;
+	}
